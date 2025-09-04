@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Index from "./pages";
-import Works from "./pages/works";
-import Stack from "./pages/stack";
+import Index from "./pages/Index";
+import Works from "./pages/Works";
+import Stack from "./pages/Stack";
 import { Header } from "./app/SZComponents/HeaderBar/Header";
 
 export default function App() {
