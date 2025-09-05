@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/", // ✅ IMPORTANT : site servi à la racine (alexisdjs.dev)
+  base: process.env.NODE_ENV === "production" ? "/folio-app/" : "/",
 });
