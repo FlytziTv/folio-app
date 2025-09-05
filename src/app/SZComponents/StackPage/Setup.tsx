@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Section } from "../Section";
 import { AppWindow, Blocks, BookOpen, LaptopMinimal, Link } from "lucide-react";
+import { BASE_URL } from "@/lib/constants";
 
 export const Setup = () => {
   return (
@@ -72,8 +73,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/Intel®-Core™-i5-14400F.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Intel®-Core™-i5-14400F.png`}
+        alt="Image processeur Intel® Core™ i5 14400F"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -87,8 +88,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/GEFORCE-RTX®-4070-SUPER.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/GEFORCE-RTX®-4070-SUPER.png`}
+        alt="Image carte graphique GEFORCE RTX® 4070 SUPER"
         width={70}
         height={70}
         className="h-auto w-auto"
@@ -102,8 +103,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/AOC-Écran-gamer.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/AOC-Écran-gamer.png`}
+        alt="Image écran AOC Écran gamer"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -117,8 +118,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/ASUS-VP228DE.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/ASUS-VP228DE.png`}
+        alt="Image écran ASUS VP228DE"
         width={70}
         height={70}
         className="h-auto w-auto"
@@ -132,8 +133,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/Apex-3-TKL.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Apex-3-TKL.png`}
+        alt="Image clavier Apex 3 TKL"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -147,8 +148,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/Logitech-G-PRO.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Logitech-G-PRO.png`}
+        alt="Image souris Logitech G PRO"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -162,8 +163,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/TITANWOLF-XXL.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/TITANWOLF-XXL.png`}
+        alt="Image tapis de souris TITANWOLF XXL"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -177,8 +178,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/Hidizs-MS1-Galaxy.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Hidizs-MS1-Galaxy.png`}
+        alt="Image écouteurs Hidizs MS1 Galaxy"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -192,8 +193,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/WD-2-To.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/WD-2-To.png`}
+        alt="Image disque dur WD 2 To"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -207,8 +208,8 @@ const STACK = [
     categorie: "setup",
     Logo: (
       <img
-        src="/stack/LaCie-Rugged-Mini-1To.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/LaCie-Rugged-Mini-1To.png`}
+        alt="Image disque dur LaCie Rugged Mini 1To"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -222,8 +223,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/html.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/html.png`}
+        alt="Logo HTML5"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -237,8 +238,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/css3.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/css3.png`}
+        alt="Logo CSS3"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -252,8 +253,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/javascript.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/javascript.png`}
+        alt="Logo Javascript"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -267,8 +268,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/vuejs.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/vuejs.png`}
+        alt="Logo Vue.js"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -282,8 +283,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/react.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/react.png`}
+        alt="Logo React"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -297,8 +298,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/tailwindcss.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/tailwindcss.png`}
+        alt="Logo Tailwind CSS"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -312,8 +313,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/nodejs.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/nodejs.png`}
+        alt="Logo Node.js"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -327,8 +328,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/python.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/python.png`}
+        alt="Logo Python"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -342,8 +343,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/mysql.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/mysql.png`}
+        alt="Logo Mysql"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -357,8 +358,8 @@ const STACK = [
     categorie: "language",
     Logo: (
       <img
-        src="/stack/lua.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/lua.png`}
+        alt="Logo Lua"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -372,8 +373,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/vscode.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/vscode.png`}
+        alt="Logo Visual Studio Code"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -387,8 +388,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/figma.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/figma.png`}
+        alt="Logo Figma"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -402,8 +403,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/solidworks.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/solidworks.png`}
+        alt="Logo SolidWorks"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -417,8 +418,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/autocad.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/autocad.png`}
+        alt="Logo AutoCad"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -432,8 +433,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/fusion360.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/fusion360.png`}
+        alt="Logo Fusion 360"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -447,8 +448,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/blender.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/blender.png`}
+        alt="Logo Blender"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -462,8 +463,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/git.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/git.png`}
+        alt="Logo Git"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -477,8 +478,8 @@ const STACK = [
     categorie: "logiciel",
     Logo: (
       <img
-        src="/stack/gitextension.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/gitextension.png`}
+        alt="Logo Git Extension"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -492,8 +493,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/Auto_Rename_Tag.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Auto_Rename_Tag.png`}
+        alt="Logo Auto Rename Tag"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -507,8 +508,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/Color_Highlighter.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Color_Highlighter.png`}
+        alt="Logo Color Highlighter"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -522,8 +523,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/EditorConfig.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/EditorConfig.png`}
+        alt="Logo EditorConfig"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -537,8 +538,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/Error_Lens.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Error_Lens.png`}
+        alt="Logo Error Lens"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -552,8 +553,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/ESLint.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/ESLint.png`}
+        alt="Logo ESLint"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -567,8 +568,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/GitHub_Copilot.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/GitHub_Copilot.png`}
+        alt="Logo GitHub Copilot"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -582,8 +583,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/GitHub_Theme.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/GitHub_Theme.png`}
+        alt="Logo GitHub Theme"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -597,8 +598,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/gitignore.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/gitignore.png`}
+        alt="Logo gitignore"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -612,8 +613,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/Live_Server.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Live_Server.png`}
+        alt="Logo Live Server"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -627,8 +628,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/Prettier_Code_formatter.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Prettier_Code_formatter.png`}
+        alt="Logo Prettier - Code formatter"
         width={70}
         height={70}
         className="h-[60px] w-auto"
@@ -642,8 +643,8 @@ const STACK = [
     categorie: "extension",
     Logo: (
       <img
-        src="/stack/Material_Icon_Theme.png"
-        alt="Logo 1"
+        src={`${BASE_URL}stack/Material_Icon_Theme.png`}
+        alt="Logo Material Icon Theme"
         width={70}
         height={70}
         className="h-[60px] w-auto"

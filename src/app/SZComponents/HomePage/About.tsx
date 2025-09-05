@@ -6,6 +6,7 @@ import {
   CircleUserRound,
   GraduationCap,
 } from "lucide-react";
+import { BASE_URL } from "@/lib/constants";
 
 export const About = () => {
   return (
@@ -60,14 +61,14 @@ export const About = () => {
             <div className="flex w-full items-center p-[8px] bg-accent/80 rounded-md">
               <div className="relative">
                 <img
-                  src="/icons/pp.png"
+                  src={`${BASE_URL}icons/pp.png`}
                   alt="Description"
                   width={40}
                   height={40}
                   className="rounded-4xl"
                 />
                 <img
-                  src="/icons/linkedin.png"
+                  src={`${BASE_URL}icons/linkedin.png`}
                   alt="Description"
                   width={15}
                   height={15}
@@ -97,14 +98,14 @@ export const About = () => {
             <div className="flex w-full items-center p-[8px] bg-accent/80 rounded-md">
               <div className="relative">
                 <img
-                  src="/icons/pp.png"
+                  src={`${BASE_URL}icons/pp.png`}
                   alt="Description"
                   width={40}
                   height={40}
                   className="rounded-4xl"
                 />
                 <img
-                  src="/icons/discord.jpg"
+                  src={`${BASE_URL}icons/discord.jpg`}
                   alt="Description"
                   width={15}
                   height={15}
@@ -140,8 +141,8 @@ const SIDE = [
   {
     Logo: (
       <img
-        src="/logo/new-mat.png"
-        alt="Logo 1"
+        src={`${BASE_URL}logo/new-mat.png`}
+        alt="Logo entreprise new-mat mechatronics"
         width={40}
         height={40}
         className="rounded-md"
@@ -155,8 +156,8 @@ const SIDE = [
   {
     Logo: (
       <img
-        src="/logo/eiffage.png"
-        alt="Logo 1"
+        src={`${BASE_URL}logo/eiffage.png`}
+        alt="Logo entreprise Eiffage"
         width={40}
         height={40}
         className="rounded-md"
@@ -170,8 +171,8 @@ const SIDE = [
   {
     Logo: (
       <img
-        src="/logo/eiffage.png"
-        alt="Logo 1"
+        src={`${BASE_URL}logo/eiffage.png`}
+        alt="Logo entreprise Eiffage"
         width={40}
         height={40}
         className="rounded-md"
@@ -185,8 +186,8 @@ const SIDE = [
   {
     Logo: (
       <img
-        src="/logo/eiffage.png"
-        alt="Logo 1"
+        src={`${BASE_URL}logo/eiffage.png`}
+        alt="Logo entreprise Eiffage"
         width={40}
         height={40}
         className="rounded-md"
@@ -200,8 +201,8 @@ const SIDE = [
   {
     Logo: (
       <img
-        src="/logo/eiffage.png"
-        alt="Logo 1"
+        src={`${BASE_URL}logo/eiffage.png`}
+        alt="Logo entreprise Eiffage"
         width={40}
         height={40}
         className="rounded-md"
@@ -216,8 +217,8 @@ const SIDE = [
   {
     Logo: (
       <img
-        src="/logo/ynov.png"
-        alt="Logo 1"
+        src={`${BASE_URL}logo/ynov.png`}
+        alt="Logo Ecole Ynov Campus"
         width={40}
         height={40}
         className="rounded-md"
@@ -230,7 +231,12 @@ const SIDE = [
   },
   {
     Logo: (
-      <img src="/logo/simone-weil.png" alt="Logo 1" width={40} height={40} />
+      <img
+        src={`${BASE_URL}logo/simone-weil.png`}
+        alt="Logo Lycée Simone Weil"
+        width={40}
+        height={40}
+      />
     ),
     title: "Simone Weil",
     description: "Bac Pro EDPI",

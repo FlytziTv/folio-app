@@ -1,3 +1,4 @@
+import { BASE_URL } from "@/lib/constants";
 import { Section } from "../Section";
 
 export const Me = () => {
@@ -6,8 +7,8 @@ export const Me = () => {
       <Section className="flex justify-center ">
         <div className="flex justify-center flex-col items-center gap-[8px]">
           <img
-            src="/icons/pp.png"
-            alt="Description"
+            src={`${BASE_URL}icons/pp.png`}
+            alt="Logo Alexis De Jesus (temporaire)"
             width={100}
             height={100}
             className=" mb-[10px] rounded-[50%]"

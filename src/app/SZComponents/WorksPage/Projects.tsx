@@ -1,6 +1,7 @@
 import { ArrowUpRight, Folder } from "lucide-react";
 import { Section } from "../Section";
 import { useState } from "react";
+import { BASE_URL } from "@/lib/constants";
 
 export default function Projects() {
   const [hoveredIdx, setHoveredIdx] = useState(0);
@@ -44,14 +45,14 @@ const WORKS = [
     title: "Flytzi",
     description: "Mon portfolio",
     language: "React, Next.js, Tailwind",
-    image: "/works/portfolio.png", // <-- Ajoute cette ligne (mets le bon chemin)
+    image: `${BASE_URL}works/portfolio.png`, // <-- Ajoute cette ligne (mets le bon chemin)
   },
   // {
   //   link: "https://tansi.dev",
   //   title: "Tansi MAKELE",
   //   description: "Portfolio",
   //   language: "Next.js, Sanity, Tailwind",
-  //   image: "/stack/Intel®-Core™-i5-14400F.png", // <-- Et ici aussi
+  //   image: `${BASE_URL}stack/Intel®-Core™-i5-14400F.png`, // <-- Et ici aussi
   // },
 ];
 
