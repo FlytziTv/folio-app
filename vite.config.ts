@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/folio-app/", // ✅ obligatoire pour GitHub Pages
+  base: process.env.NODE_ENV === "production" ? "/folio-app/" : "/", // ✅
 });
